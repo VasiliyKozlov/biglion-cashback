@@ -1,0 +1,37 @@
+.banner {
+  height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 11px;
+  margin-bottom: 25px;
+  position: relative;
+  &_cashback{
+    background-image: url("../../images/Group.png");
+    background-repeat: no-repeat;
+    background-position: 22px 24px;
+    background-color: var(--orange)//#FF7440;
+  }
+  &__txt{
+    width: 400px;
+    margin: auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF
+  }
+  &__btn{
+    color: #000000;
+    background: #fff;
+    position: absolute;
+    right: 30px;
+    font-weight: 500;
+    top: 35px;
+    font-size: 16px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,59 @@
+.modal {
+  display: none;
+  &.active{
+    font-family: Raleway;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255, .7);
+    z-index: 105;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  &__overlay {
+    position: fixed;
+    min-height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  &__body{
+    margin: auto;
+    position: relative;
+    top:40px;
+    box-sizing: border-box;
+    text-align: left;
+    z-index: 101;
+    background-color: #ffffff;
+    padding: 45px 50px;
+    width: 780px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(32, 36, 56, 0.1);
+    border: solid 1px rgba(32, 36, 56, 0.1);
+  }
+  &__close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-image: url("../../images/close.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 120;
+    &:hover{
+      background-image: url("../../images/closeHover.svg");
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.modal-active{
+  overflow: hidden;
+}

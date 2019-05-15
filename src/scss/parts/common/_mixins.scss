@@ -1,0 +1,79 @@
+@define-mixin placeholder {
+  &::-webkit-input-placeholder {
+    @mixin-content;
+  }
+  &:-ms-input-placeholder {
+    @mixin-content;
+  }
+  &::-moz-placeholder {
+    @mixin-content;
+  }
+  &:-moz-placeholder {
+    @mixin-content;
+  }
+}
+
+@define-mixin clearfix {
+  &:after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+  }
+}
+
+@define-mixin ib_justify {
+  text-align: justify;
+  &:after {
+    content: ' ';
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+  }
+}
+
+@define-mixin flat-btn-color $color, $color-hover, $color-active, $color-text: #fff {
+  background-color: $color;
+  border-color: $color-active;
+  color: $color-text;
+  &:hover {
+    background-color: $color-hover;
+    text-decoration: none;
+  }
+  &:active {
+    background-color: $color-active;
+  }
+}
+
+@define-mixin round-btn-hover $color {
+  &:hover {
+    color: var(--white);
+    background: $color;
+    border-color: transparent;
+    transition: .2s;
+  }
+}
+
+@define-mixin round-btn-active $color {
+  &:active {
+    background: $color;
+    color: color(var(--white)) a(80%);
+    border-color: transparent;
+    transition: .1s;
+  }
+}
+
+/*@define-mixin desktop--only{
+  @media screen and (width < 768px) {
+    display: none;
+  }
+}*/
+
+/*@define-mixin hide-from $width{
+  @media screen and (width >= $width) {
+    display: none;
+  };
+}*/

@@ -1,0 +1,145 @@
+/* old deprecated colors, don't use them, use zeplin's colors instead
+ @todo change all old colors on zeplin's colors */
+:root {
+
+  --b: #000;
+
+  --black2: #2f3842;
+  --black3: #353e48;
+  --black4: #333;
+  --black5: #2b3148;
+
+  --gray: #d0d0d0;
+  --gray2: #c2c2c2;
+  --gray3: #ccc;
+  --gray4: #f1f1f1;
+
+  --pink: #ffbda1;
+
+  --red: #d34743;
+  --red-hover: #c6322f;
+  --red-active: #c5312e;
+  --red2: #d60b0b;
+
+  --orange: #f6753e;
+  --orange-hover: #f45e32;
+  --orange-active: #f3522b;
+  --orange2: #e2761a;
+  --orange3: #e47913;
+  --orange4: #fd764a;
+  --orange5: #bf481f;
+  --orange6: #e86d41;
+  --orange8: #d26540;
+
+  --green: #57b357;
+  --green-hover: #46a446;
+  --green-active: #3d9c3d;
+  --green2: #43d167;
+
+  --blue: #3d8cd9;
+  --blue-hover: #3175d1;
+  --blue-active: #2b69ce;
+  --blue2: #52a8e7;
+  --blue3: #93d1ff;
+  --blue4: #69a6db;
+  --blue5: #2e77cf;
+  --blue6: #3c7ec1;
+
+}
+
+/* social colors */
+:root {
+  --vk-color: #45668e;
+  --fb-color: #3b5998;
+  --ok-color: #ed812b;
+  --tw-color: #1da1f2;
+  --mailru-color: #ffaa15;
+}
+
+/* zeplin's styleguide colors
+ Color palette */
+:root {
+  --cool-green: #43d167;
+  --watermelon: #ff4355;
+  --dark-80: rgba(32, 35, 56, 0.8);
+  --dark-60: rgba(32, 35, 56, 0.6);
+  --dark-40: rgba(32, 35, 56, 0.4);
+  --dark-20: rgba(32, 35, 56, 0.2);
+  --clear-blue: #1b68ff;
+  --dark-5: rgba(32, 35, 56, 0.05);
+  --darkish-green: #288c28;
+  --azure: #00aeee;
+  --hot-pink: #ec008c;
+  --white: #ffffff;
+  --dark-40-two: rgba(32, 36, 56, 0.4);
+  --silver-bg: #e8e9eb;
+  --dark: #202438;
+  --pale-grey: #f4f4f5;
+  --dark-20-two: rgba(32, 35, 56, 0.2);
+  --pinkish-orange: #ff7642;
+  --squash: #f39e27;
+  --dusk-blue: #253b80;
+  --water-blue: #179bd7;
+  --dark-slate-blue: #222d65;
+  --golden-yellow: #faca21;
+  --brownish-orange: #caa521;
+  --blue-grey: #6f8f9d;
+  --cerulean: #0077b9;
+  --dark-40-three: rgba(32, 35, 56, 0.4);
+  --dark-40-two-60: rgba(32, 36, 56, 0.6);
+  --dark-5-two: rgba(32, 35, 56, 0.05);
+  --dusk-0: rgba(67, 74, 105, 0.0);
+  --dark-6: rgba(32, 35, 56, 0.06);
+  --dark-40-two-80: rgba(32, 36, 56, 0.8);
+  --darkish-green-two: #299d30;
+  --purplish-blue: #631bff;
+  --dark-10: rgba(32, 35, 56, 0.1);
+  --dark-40-two-5: rgba(32, 36, 56, 0.05);
+  --orange-red: #ff5721;
+  --dark-40-two-20: rgba(32, 36, 56, 0.2);
+  --black-10: rgba(0, 0, 0, 0.1);
+  --pinkish-orange-two: #fd764a;
+  --cerulean-two: #008be5;
+  --black-20: rgba(0, 0, 0, 0.2);
+  --dark-4: rgba(32, 35, 56, 0.04);
+  --soft-green: #7eca7e;
+  --light-sage: #b9edb9;
+  --ice: #eaffea;
+  --greyish-brown: #494949;
+  --electric-blue-58: rgba(0, 72, 255, 0.58);
+  --dark-two-40: rgba(43, 49, 72, 0.4);
+  --dark-40-two-4: rgba(32, 36, 56, 0.04);
+  --dark-40-two-10: rgba(32, 36, 56, 0.1);
+  --charcoal-grey: #424345;
+  --white-two: #d8d8d8;
+  --white-60: rgba(255, 255, 255, 0.6);
+  --white-three: #f4f4f4;
+  --dark-90: rgba(32, 35, 56, 0.9);
+  --dark-two: #16171c;
+  --dark-15: rgba(19, 22, 35, 0.15);
+  --white-four: #e5e5e5;
+  --dark-three: #212433;
+  --white-7: rgba(255, 255, 255, 0.07);
+  --dark-four: #1c1e2b;
+  --black--3: rgba(0, 0, 0, 0.03);
+  --black--80: rgba(0, 0, 0, 0.8);
+  --dark-five: #262a3c;
+  --pale-grey-two: #ededef;
+  --duck-egg-blue: #ecf1fc;
+  --very-light-pink: #fff2ed;
+  --white-five: #e7e7e7;
+  --dark-six: #202437;
+  --charcoal-grey-two: #3c3f50;
+  --dark-seven: #20222c;
+  --dark-40-two-3: rgba(32, 36, 56, 0.03);
+  --steel-grey: #797c88;
+  --charcoal-grey-three: #35384a;
+  --slate-grey: #4d5060;
+  --dark-40-two-90: rgba(32, 36, 56, 0.9);
+  --charcoal-grey-four: #36394b;
+  --black--3: rgba(0, 0, 0, 0.03);
+  --black--80: rgba(0, 0, 0, 0.8);
+  --dark-two-15: rgba(19, 22, 36, 0.15);
+  --cloudy-blue: #ccccd8;
+  --orange-red-two: #ff5821;
+}

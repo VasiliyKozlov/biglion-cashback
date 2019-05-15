@@ -1,0 +1,52 @@
+.cashback{
+  &__modal{
+    &-head{
+      font-weight: 900;
+      line-height: 44px;
+      font-size: 36px;
+      margin-bottom: 35px;
+    }
+    p{
+      font-weight: 500;
+      line-height: 24px;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    &-deck{
+      &-list-item{
+        margin-bottom: 70px;
+        text-align: left;
+        padding-left: 65px;
+        position: relative;
+        &-num{
+          width: 55px;
+          left: 0px;
+          top: -5px;
+          height: 55px;
+          font-weight: 700;
+          line-height: 56px;
+          font-size: 24px;
+          color: var(--orange);
+          text-align: center;
+          position: absolute;
+          border-radius: 50%;
+          border: 1px solid var(--orange);
+        }
+      }
+      &-header{
+        font-weight: 700;
+        line-height: 24px;
+        font-size: 16px;
+      }
+      &-txt{
+        font-weight: 500;
+        line-height: 24px;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      &-img{
+
+      }
+    }
+  }
+}

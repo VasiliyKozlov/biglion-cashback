@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  overflow: auto;
+  overflow-y: auto;
+}
+
+img {
+  border: 0;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

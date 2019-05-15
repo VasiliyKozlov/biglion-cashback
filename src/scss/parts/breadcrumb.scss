@@ -1,0 +1,25 @@
+.breadcrumb{
+  padding-top: 20px;
+  margin-bottom: 25px;
+  font-family: Raleway;
+  &__item{
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 16px;
+    font-size: 14px;
+    color: var(--gray2);
+    :after{
+      content: "→";
+      display: inline-block;
+      margin-left: 15px;
+    }
+    &-link{
+      color: var(--gray2);
+      text-decoration: none;
+      &:hover{
+        color: var(--gray2);
+        text-decoration: none;
+      }
+    }
+  }
+}

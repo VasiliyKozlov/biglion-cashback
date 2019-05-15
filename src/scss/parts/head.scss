@@ -1,0 +1,39 @@
+.page-head{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  &__header{
+    font-weight: 900;
+    line-height: 44px;
+    font-size: 36px;
+  }
+  &__links{
+    display: flex;
+    &-item{
+      font-weight: 600;
+      line-height: 44px;
+      font-size: 16px;
+      margin-left: 40px;
+    }
+    &-link{
+      text-decoration: none;
+      color: #000;
+      &:hover{
+        text-decoration: none;
+        color: var(--gray2);
+      }
+      &_my-cahsback{
+        &:before{
+          content: "";
+          display: inline-block;
+          margin-right: 10px;
+          vertical-align: -1px;
+          width: 18px;
+          height: 19px;
+          background-image: url("../../images/user.png");
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+body{
+  background: #f1f1f1;
+}
+.content{
+  width: 980px;
+  min-height: 600px;
+  margin: 0 auto;
+  font-family: Raleway;
+}
+
+a{
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
+  color: var(--clear-blue);
+  text-decoration: none;
+  margin-bottom: 30px;
+  transition: color .3s;
+  &:hover{
+    color: var(--orange);
+    text-decoration: none;
+  }
+}
+
+.strong{
+  font-weight: 700;
+}
